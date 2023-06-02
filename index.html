@@ -4,52 +4,37 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Site - Home</title>
+        <title>About Me</title>
         <style>
-            div {font-size: 20px;}
-            .header {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-            }
 
-            .links {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                text-align: right;
-            }
-
-            .div-1 {
-                width: 100px;
-            }
-            .div-2 {
-                color: black;
-                width: 50px;
-            }
-            .div-3 {
-                width: 100px;
-            }
-
-            a {
-                text-decoration: none;
-                color: black;
-            }
         </style>
     </head>
     <body>
-        <div class="header">
-            <div class="nav div-1">
-                <a href="index.html">PHS</a>
+        <header class="header">
+            <div class="logo-wrapper">
+                <div class="blue-box"></div>
+                <p class="logo-name">Cameron Chadwick</p>
+                <p class="logo-occupation">/ PHS Student</p>
             </div>
-            <div class="links">
-                <div class="nav div-2">
-                    <a href="schedule.html">Schedule</a>
-                </div>
-                <div class="nav div-3">
-                    <a href="#">About</a>
+            <nav class="links">
+                <a href="#" class="link">About Me</a>
+                <a href="#" class="link">Resume</a>
+                <a href="#" class="link">Projects</a>
+                <a href="#" class="link">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <div class="left-wrapper"></div>
+            <div class="right-wrapper">
+                <div class="intro-wrapper">
+                    <h1>Hello</h1>
+                    <h2 class="intro-sentence">
+                        I'm a junior student at Portland High School
+                    </h2>
+                    <button class="intro-btn">Resume</button>
+                    <button class="intro-btn">Projects</button>
                 </div>
             </div>
-        </div>
+        </main>
     </body>
 </html>
